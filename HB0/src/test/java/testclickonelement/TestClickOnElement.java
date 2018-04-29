@@ -5,22 +5,22 @@ import org.testng.annotations.Test;
 
 public class TestClickOnElement extends ClickOnElement {
     @Test
-    public void clickOnElemtHBOP1(){
-        clickOnElement1();
+    public void testSeries(){
+        clickOnSeries();
     }
     @Test
-    public void clickOnElemtHBOP2() {
-        clickOnElement2();
+    public void testMovies() {
+        clickOnMovies();
     }
     @Test
-    public void clickOnElemtHBOP3() {
-        clickOnElement3();
+    public void testSpecials() {
+        clickOnSpecials();
     }@Test
-    public void clickOnElemtHBOP4() {
-        clickOnElement4();
+    public void testBoxing() {
+        clickOnBoxing();
     }@Test
-    public void clickOnElemtHBOP5() {
-        clickOnElement5();
+    public void testKis() {
+        clickOnKids();
     }
 
 }

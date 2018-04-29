@@ -13,8 +13,10 @@
 
     <test name = "HBO Search">
         <classes>
-            <!--<class name="testsearch.TestSearch"/>-->
+            <class name="testsearch.TestSearch"/>
             <class name="testclickonelement.TestClickOnElement"/>
+            <class name="testfollowhbo.TestFollowHBO"/>
+            <class name="testnavigate.TestNavigate"/>
         </classes>
     </test>
 
