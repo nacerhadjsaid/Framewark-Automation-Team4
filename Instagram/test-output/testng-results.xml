@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Instagram Automation Script " duration-ms="12578" started-at="2018-04-30T00:19:56Z" finished-at="2018-04-30T00:20:09Z">
+    <groups>
+    </groups>
+    <test name="Instagram" duration-ms="12578" started-at="2018-04-30T00:19:56Z" finished-at="2018-04-30T00:20:09Z">
+      <class name="testhome.TestHome">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testhome.TestHome@1d16f93d]" name="setUp" is-config="true" duration-ms="6604" started-at="2018-04-30T00:19:56Z" finished-at="2018-04-30T00:20:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.instagram.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:testhome.TestHome@1d16f93d]" name="test" duration-ms="3760" started-at="2018-04-30T00:20:03Z" finished-at="2018-04-30T00:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testhome.TestHome@1d16f93d]" name="afterMethod" is-config="true" duration-ms="2162" started-at="2018-04-30T00:20:07Z" finished-at="2018-04-30T00:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testhome.TestHome -->
+    </test> <!-- Instagram -->
+  </suite> <!-- Instagram Automation Script  -->
+</testng-results>

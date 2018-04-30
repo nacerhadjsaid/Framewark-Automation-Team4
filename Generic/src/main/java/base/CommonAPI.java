@@ -26,10 +26,11 @@ public class CommonAPI {
     @Parameters({"url"})
     @BeforeMethod
     public void setUp(String url) {
-        System.setProperty("webdriver.chrome.driver", "../Generic/Driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "../Generic/Driver/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
+        driver.manage().window().maximize();
     }
 
     @AfterMethod
