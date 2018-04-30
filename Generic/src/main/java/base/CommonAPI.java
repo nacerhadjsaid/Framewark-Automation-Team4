@@ -33,10 +33,10 @@ public class CommonAPI {
         driver.manage().window().maximize();
     }
 
-    @AfterMethod
-    public void afterMethod() {
-        driver.close();
-    }
+//    @AfterMethod
+//    public void afterMethod() {
+//        driver.close();
+//    }
 
     public void clickOnCss(String locator){
         driver.findElement(By.cssSelector(locator)).click();

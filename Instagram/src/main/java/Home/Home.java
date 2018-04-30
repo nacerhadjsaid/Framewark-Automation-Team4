@@ -5,7 +5,7 @@ import base.CommonAPI;
 import java.util.concurrent.TimeUnit;
 
 public class Home extends CommonAPI {
-    public void login() {
+    public void home() {
         clickByXpath("//*[@id=\"react-root\"]/section/main/article/div[2]/div[2]/p/a");
         clickByXpath("//*[@id=\"react-root\"]/section/footer/div/nav/ul/li[1]/a");
         clickByXpath("//*[@id=\"link_profile\"]/a/strong");
@@ -13,7 +13,7 @@ public class Home extends CommonAPI {
         typeByXpath("//input[@type='password']", "hellojam");
         clickByXpath("//button[@class=\"_qv64e       _gexxb _4tgw8     _njrw0   \"]");
         clickByXpath("/html/body/div/div[1]/header/div/hgroup/div/a");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//        clickByXpath("//span[@class=\"_lilm5\"]");
+        typeByXpath("//input[@type=\"text\"]", "#seleniumautomation");
+        driver.navigate().to("https://www.instagram.com/explore/tags/seleniumautomation/");
     }
 }

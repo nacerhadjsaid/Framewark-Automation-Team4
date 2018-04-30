@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Instagram Automation Script " duration-ms="12578" started-at="2018-04-30T00:19:56Z" finished-at="2018-04-30T00:20:09Z">
+  <suite name="Instagram Automation Script " duration-ms="10690" started-at="2018-04-30T01:30:13Z" finished-at="2018-04-30T01:30:23Z">
     <groups>
     </groups>
-    <test name="Instagram" duration-ms="12578" started-at="2018-04-30T00:19:56Z" finished-at="2018-04-30T00:20:09Z">
+    <test name="Instagram" duration-ms="10690" started-at="2018-04-30T01:30:13Z" finished-at="2018-04-30T01:30:23Z">
       <class name="testhome.TestHome">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testhome.TestHome@1d16f93d]" name="setUp" is-config="true" duration-ms="6604" started-at="2018-04-30T00:19:56Z" finished-at="2018-04-30T00:20:03Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testhome.TestHome@6325a3ee]" name="setUp" is-config="true" duration-ms="6046" started-at="2018-04-30T01:30:13Z" finished-at="2018-04-30T01:30:19Z">
           <params>
             <param index="0">
               <value>
@@ -18,14 +18,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testhome.TestHome@1d16f93d]" name="test" duration-ms="3760" started-at="2018-04-30T00:20:03Z" finished-at="2018-04-30T00:20:07Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:testhome.TestHome@6325a3ee]" name="test" duration-ms="4611" started-at="2018-04-30T01:30:19Z" finished-at="2018-04-30T01:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testhome.TestHome@1d16f93d]" name="afterMethod" is-config="true" duration-ms="2162" started-at="2018-04-30T00:20:07Z" finished-at="2018-04-30T00:20:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- testhome.TestHome -->
     </test> <!-- Instagram -->
   </suite> <!-- Instagram Automation Script  -->

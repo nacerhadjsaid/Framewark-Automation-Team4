@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 @Test
 public class TestHome extends Home {
     public void test(){
-        login();
+        home();
     }
-
 }
