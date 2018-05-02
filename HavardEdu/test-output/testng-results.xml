@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Havard Edu Automation" duration-ms="41138" started-at="2018-05-02T17:14:25Z" finished-at="2018-05-02T17:15:07Z">
+    <groups>
+    </groups>
+    <test name="Havard Eduation" duration-ms="41138" started-at="2018-05-02T17:14:25Z" finished-at="2018-05-02T17:15:07Z">
+      <class name="testExplore.TestDoExplore">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testExplore.TestDoExplore@3701eaf6]" name="setUp" is-config="true" duration-ms="7272" started-at="2018-05-02T17:14:25Z" finished-at="2018-05-02T17:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.harvard.edu/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPlayArround()[pri:0, instance:testExplore.TestDoExplore@3701eaf6]" name="testPlayArround" duration-ms="33652" started-at="2018-05-02T17:14:33Z" finished-at="2018-05-02T17:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlayArround -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testExplore.TestDoExplore@3701eaf6]" name="afterMethod" is-config="true" duration-ms="170" started-at="2018-05-02T17:15:06Z" finished-at="2018-05-02T17:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testExplore.TestDoExplore -->
+    </test> <!-- Havard Eduation -->
+  </suite> <!-- Havard Edu Automation -->
+</testng-results>
