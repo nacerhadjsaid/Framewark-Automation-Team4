@@ -11,5 +11,13 @@
 
     <artifactId>MetroPlus</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>Automatiom-Framework-Team4</groupId>
+            <artifactId>Generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

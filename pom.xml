@@ -12,8 +12,10 @@
         <module>Generic</module>
         <module>BankOfAmerica</module>
         <module>Instagram</module>
-        <module>Walmart</module>
         <module>HB0</module>
+        <module>MetroPlus</module>
+        <module>WaImart</module>
+
 
     </modules>
     <dependencyManagement>
