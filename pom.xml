@@ -15,7 +15,7 @@
         <module>HB0</module>
         <module>MetroPlus</module>
         <module>WaImart</module>
-
+        <module>HavardEdu</module>
 
     </modules>
     <dependencyManagement>
