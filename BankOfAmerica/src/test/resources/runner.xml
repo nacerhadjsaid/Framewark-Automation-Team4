@@ -12,7 +12,7 @@
     <parameter name="url" value="https://www.bankofamerica.com"/>
 
     <test name = "boa Search">
-        <classes>gi
+        <classes>
             <class name="homePageTest.allBoaTest"/>
 
 
