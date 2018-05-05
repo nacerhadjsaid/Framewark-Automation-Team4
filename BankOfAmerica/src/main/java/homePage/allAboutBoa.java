@@ -34,5 +34,8 @@ public class allAboutBoa extends CommonAPI {
         clickByXpath("//*[@id=\"interestChecking\"]");
         clickByXpath("//*[@id=\"navCheckingMobileBanking\"]");
     }
+    public void homeLoan(){
+        clickByXpath("//*[@id=\"prequalify-now-medium\"]");
+    }
 
 }
