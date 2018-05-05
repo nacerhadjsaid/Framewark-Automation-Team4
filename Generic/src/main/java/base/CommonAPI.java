@@ -1,9 +1,5 @@
 package base;
 
-<<<<<<< HEAD
-=======
-import com.aventstack.extentreports.ExtentReports;
->>>>>>> 1b293d85688f7565fdfca8ac78aad9eb25103bf3
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -28,10 +24,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.lang.reflect.Method;
-<<<<<<< HEAD
 import java.net.URL;
-=======
->>>>>>> 1b293d85688f7565fdfca8ac78aad9eb25103bf3
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -43,7 +36,6 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
     public WebDriver driver = null;
-<<<<<<< HEAD
     public String browserstack_username = "your user name";
     public String browserstack_accesskey = "your access key";
     public String saucelabs_username = "";
@@ -58,67 +50,6 @@ public class CommonAPI {
         extent = ExtentManager.getInstance();
     }
 
-=======
-    //ExtentReport
-    public static com.relevantcodes.extentreports.ExtentReports extent;
-
-    @BeforeSuite
-    public void extentSetup(ITestContext context) {
-        ExtentManager.setOutputDirectory(context);
-        extent = ExtentManager.getInstance();
-    }
-
-    @BeforeMethod
-    public void startExtent(Method method) {
-        String className = method.getDeclaringClass().getSimpleName();
-        String methodName = method.getName().toLowerCase();
-        ExtentTestManager.startTest(method.getName());
-        ExtentTestManager.getTest().assignCategory(className);
-    }
-
-    protected String getStackTrace(Throwable t) {
-        StringWriter sw = new StringWriter();
-        PrintWriter pw = new PrintWriter(sw);
-        t.printStackTrace(pw);
-        return sw.toString();
-    }
-
-    @AfterMethod
-    public void afterEachTestMethod(ITestResult result) {
-        ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
-        ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
-
-        for (String group : result.getMethod().getGroups()) {
-            ExtentTestManager.getTest().assignCategory(group);
-        }
-
-        if (result.getStatus() == 1) {
-            ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
-        } else if (result.getStatus() == 2) {
-            ExtentTestManager.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
-        } else if (result.getStatus() == 3) {
-            ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");
-        }
-        ExtentTestManager.endTest();
-        extent.flush();
-        if (result.getStatus() == ITestResult.FAILURE) {
-            captureScreenshot(driver, result.getName());
-        }
-        driver.quit();
-    }
-    @AfterSuite
-    public void generateReport() {
-        extent.close();
-    }
-
-    private Date getTime(long millis) {
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTimeInMillis(millis);
-        return calendar.getTime();
-    }
-
-        @Parameters({"url"})
->>>>>>> 1b293d85688f7565fdfca8ac78aad9eb25103bf3
     @BeforeMethod
     public void startExtent(Method method) {
         String className = method.getDeclaringClass().getSimpleName();
@@ -230,11 +161,7 @@ public class CommonAPI {
         return driver;
     }
     @AfterMethod
-<<<<<<< HEAD
     public void afterMethod () {
-=======
-    public void afterMethod() {
->>>>>>> 1b293d85688f7565fdfca8ac78aad9eb25103bf3
         driver.quit();
     }
 
