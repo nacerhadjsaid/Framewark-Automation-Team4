@@ -1,15 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/mahmudurrahman/IdeaProject/Framwark-Automation-Team4/HavardEdu/test-output/html]]>
+    </line>
   </reporter-output>
-  <suite name="Havard Edu Automation" duration-ms="41138" started-at="2018-05-02T17:14:25Z" finished-at="2018-05-02T17:15:07Z">
+  <suite name="Havard Edu Automation" duration-ms="47298" started-at="2018-05-03T05:19:05Z" finished-at="2018-05-03T05:19:53Z">
     <groups>
     </groups>
-    <test name="Havard Eduation" duration-ms="41138" started-at="2018-05-02T17:14:25Z" finished-at="2018-05-02T17:15:07Z">
+    <test name="Havard Eduation" duration-ms="47298" started-at="2018-05-03T05:19:05Z" finished-at="2018-05-03T05:19:53Z">
       <class name="testExplore.TestDoExplore">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testExplore.TestDoExplore@3701eaf6]" name="setUp" is-config="true" duration-ms="7272" started-at="2018-05-02T17:14:25Z" finished-at="2018-05-02T17:14:33Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testExplore.TestDoExplore@1f36e637]" name="extentSetup" is-config="true" duration-ms="565" started-at="2018-05-03T05:19:05Z" finished-at="2018-05-03T05:19:05Z">
           <params>
             <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@34f22f9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/mahmudurrahman/IdeaProject/Framwark-Automation-Team4/HavardEdu/test-output/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testExplore.TestDoExplore@1f36e637]" name="setUp" is-config="true" duration-ms="12503" started-at="2018-05-03T05:19:05Z" finished-at="2018-05-03T05:19:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[53.0]]>
+              </value>
+            </param>
+            <param index="6">
               <value>
                 <![CDATA[https://www.harvard.edu/]]>
               </value>
@@ -18,14 +65,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testPlayArround()[pri:0, instance:testExplore.TestDoExplore@3701eaf6]" name="testPlayArround" duration-ms="33652" started-at="2018-05-02T17:14:33Z" finished-at="2018-05-02T17:15:06Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testExplore.TestDoExplore@1f36e637]" name="startExtent" is-config="true" duration-ms="10" started-at="2018-05-03T05:19:18Z" finished-at="2018-05-03T05:19:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExplore.TestDoExplore.testPlayArround() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testPlayArround()[pri:0, instance:testExplore.TestDoExplore@1f36e637]" name="testPlayArround" duration-ms="34266" started-at="2018-05-03T05:19:18Z" finished-at="2018-05-03T05:19:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPlayArround -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testExplore.TestDoExplore@3701eaf6]" name="afterMethod" is-config="true" duration-ms="170" started-at="2018-05-02T17:15:06Z" finished-at="2018-05-02T17:15:07Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testExplore.TestDoExplore@1f36e637]" name="afterEachTestMethod" is-config="true" duration-ms="494" started-at="2018-05-03T05:19:52Z" finished-at="2018-05-03T05:19:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPlayArround status=SUCCESS method=TestDoExplore.testPlayArround()[pri:0, instance:testExplore.TestDoExplore@1f36e637] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testExplore.TestDoExplore@1f36e637]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-05-03T05:19:53Z" finished-at="2018-05-03T05:19:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:testExplore.TestDoExplore@1f36e637]" name="generateReport" is-config="true" duration-ms="60" started-at="2018-05-03T05:19:53Z" finished-at="2018-05-03T05:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
       </class> <!-- testExplore.TestDoExplore -->
     </test> <!-- Havard Eduation -->
   </suite> <!-- Havard Edu Automation -->

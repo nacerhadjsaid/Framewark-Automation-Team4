@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Havard Edu Automation]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="os_version" value="Sierra"/>
+  <parameter name="browserVersion" value="53.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.harvard.edu/"/>
+  <test thread-count="5" name="Havard Eduation(failed)">
+    <classes>
+      <class name="testExplore.TestDoExplore">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="testPlayArround"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- testExplore.TestDoExplore -->
+    </classes>
+  </test> <!-- Havard Eduation(failed) -->
+</suite> <!-- Failed suite [Havard Edu Automation] -->
