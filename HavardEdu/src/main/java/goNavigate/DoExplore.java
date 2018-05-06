@@ -21,15 +21,16 @@ public class DoExplore extends CommonAPI {
         video.click(); // pause the video
         driver.navigate().to("https://www.harvard.edu/");
         clickByXpath("//*[@id=\"siteNavigation\"]/div/div[3]/ul/li[4]/a");
-        sleepFor(5);
+        sleepFor(3);
         driver.get("https://news.harvard.edu/gazette/story/2018/04/chimamanda-ngozi-adichie-named-harvards-class-day-speaker/");
-        sleepFor(5);
-        JavascriptExecutor jsx = (JavascriptExecutor)driver;
-        sleepFor(5);
+        sleepFor(3);
+
+        sleepFor(3);
+       JavascriptExecutor jsx = (JavascriptExecutor)driver;
         jsx.executeScript("window.scrollBy(0,900)", "");
         jsx.executeScript("window.scrollBy(0,900)", "");
         jsx.executeScript("window.scrollBy(0,900)", "");
-        sleepFor(5);
+        sleepFor(3);
 
     }
 }

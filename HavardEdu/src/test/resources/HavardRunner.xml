@@ -13,10 +13,9 @@
 
     <test name = "Havard Eduation">
         <classes>
-            <!--<class name="testsearch.TestSearch"/>-->
-            <!--<class name="testclickonelement.TestClickOnElement"/>-->
-            <!--<class name="testfollowhbo.TestFollowHBO"/>-->
+            <!--<class name="testExplore.TestSearchUsingExcel"/>-->
             <class name="testExplore.TestDoExplore"/>
+            <!--<class name="testMajors.TestExploreHarvardMajors"/>-->
         </classes>
     </test>
 
