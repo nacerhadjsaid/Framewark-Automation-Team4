@@ -18,5 +18,5 @@ public class IPhone extends CommonAPI {
         pickIphone();
             driver.findElement(By.xpath("//*[@id=\"searchProductResult\"]/ul/li[1]/div/div/div[2]/div/div/a/img"));
     }
-
 }
+
