@@ -4,7 +4,7 @@
 <suite name="Walmart Automation Script " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
-    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="cloudEnvName" value="saucelabs"/>
     <parameter name="os" value="WINDOWS"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="chrome"/>
@@ -13,7 +13,8 @@
 
     <test name = "Walmart">
         <classes>
-            <class name="testhome.TestIphone"></class>
+            <class name="testhome.TestHome"></class>
+
         </classes>
     </test>
 </suite>
