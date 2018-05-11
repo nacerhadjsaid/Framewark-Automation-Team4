@@ -16,6 +16,7 @@
         <module>MetroPlus</module>
         <module>WaImart</module>
         <module>HavardEdu</module>
+        <module>RestApi</module>
 
     </modules>
     <dependencyManagement>
@@ -52,6 +53,11 @@
                 <version>3.6.0-beta1</version>
             </dependency>
             <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>6.0.6</version>
+            </dependency>
+            <dependency>
                 <groupId>com.aventstack</groupId>
                 <artifactId>extentreports</artifactId>
                 <version>3.0.7</version>
@@ -60,6 +66,11 @@
                 <groupId>com.relevantcodes</groupId>
                 <artifactId>extentreports</artifactId>
                 <version>2.41.1</version>
+            </dependency>
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>3.1.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
