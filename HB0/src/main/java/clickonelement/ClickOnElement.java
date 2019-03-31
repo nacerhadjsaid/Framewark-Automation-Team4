@@ -11,16 +11,16 @@ public class ClickOnElement extends CommonAPI {
         driver.findElement(By.partialLinkText("SERIES"));
     }
     public void clickOnMovies(){
-        clickByXpath("/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[2]/div/a");
+        clickByXpath("//a[text()='Movies']");
     }
     public void clickOnSpecials(){
-        clickByXpath("/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[3]/div/a");
+        clickByXpath("//a[text()='Specials']");
     }
     public void clickOnBoxing(){
-        clickByXpath("/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[4]/div/a");
+        clickByXpath("//a[text()='Boxing']");
     }
     public void clickOnKids(){
-        clickByXpath("/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[5]/div/a");
+        clickByXpath("//a[text()='Kids']");
     }
 
 

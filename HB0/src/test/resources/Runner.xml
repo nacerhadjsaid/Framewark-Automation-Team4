@@ -3,7 +3,7 @@
 
 <suite name="JBO Automation Script " parallel="false">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="flase"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
@@ -15,9 +15,10 @@
         <classes>
             <!--<class name="testsearch.TestSearch"/>-->
             <!--<class name="testclickonelement.TestClickOnElement"/>-->
-            <class name="testfollowhbo.TestFollowHBO"/>
+            <!--<class name="testfollowhbo.TestFollowHBO"/>-->
             <!--<class name="testnavigate.TestNavigate"/>-->
             <!--<class name="testsearch.TestSearchByDB"/>-->
+            <class name="testdropdown.TestDropDown"/>
         </classes>
     </test>
 
