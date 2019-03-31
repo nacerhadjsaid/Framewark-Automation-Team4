@@ -38,8 +38,8 @@ public class CommonAPI {
     public WebDriver driver = null;
     public String browserstack_username = "your user name";
     public String browserstack_accesskey = "your access key";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String saucelabs_username = "smkhaja";
+    public String saucelabs_accesskey = "49ce90c0-83bb-459d-9862-97806f6f558d";
 
     //ExtentReport
     public static com.relevantcodes.extentreports.ExtentReports extent;
